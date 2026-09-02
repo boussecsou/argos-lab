@@ -1,0 +1,44 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Local agent and Codex state
+.codex/
+.agents/
+
+# Dependencies, build output, and coverage
+node_modules/
+dist/
+build/
+coverage/
+*.log
+
+# Local configuration and secrets — never commit credentials to this public repo
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.token
+*.secret
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Temporary files
+.tmp/
+tmp/
+*.tmp
