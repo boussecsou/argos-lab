@@ -1,0 +1,722 @@
+[
+  {
+    "anonymous_id": "A001",
+    "coverage": {
+      "editorial_brief": 1,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 1,
+      "rate": 1.0
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Complete Task 03 article with clear brief, sourced risk framing, separated recommendations, checklist, and explicit QA."
+  },
+  {
+    "anonymous_id": "A002",
+    "coverage": {
+      "editorial_brief": 1,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 1,
+      "rate": 1.0
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Strong Task 03 artifact with detailed evidence, source/recommendation separation, practical checklist, and pass/fail QA."
+  },
+  {
+    "anonymous_id": "A003",
+    "coverage": {
+      "editorial_brief": 1,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 1,
+      "rate": 1.0
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Complete Task 03 output; evidence is identifiable, gaps are disclosed, and article covers all required gate concerns."
+  },
+  {
+    "anonymous_id": "A004",
+    "coverage": {
+      "editorial_brief": 1,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 1,
+      "rate": 1.0
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Focused Task 03 article with strong NIST grounding, explicit editorial recommendations, checklist, and no visible blockers."
+  },
+  {
+    "anonymous_id": "A005",
+    "coverage": {
+      "editorial_brief": 1,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 1,
+      "rate": 1.0
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Complete Task 02 output tying Conventional Commits to release automation, SemVer, limitations, and adoption guidance."
+  },
+  {
+    "anonymous_id": "A006",
+    "coverage": {
+      "editorial_brief": 1,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 1,
+      "rate": 1.0
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 1,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 1,
+      "total": 8
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 2,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Task 03 article is complete and on-brief, but two cited OpenAI URLs appear malformed or not clearly verifiable from the artifact."
+  },
+  {
+    "anonymous_id": "A007",
+    "coverage": {
+      "editorial_brief": 1,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 1,
+      "rate": 1.0
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Complete Task 03 output with clear gates, NIST-backed evidence, a practical checklist, and explicit QA disposition."
+  },
+  {
+    "anonymous_id": "A008",
+    "coverage": {
+      "editorial_brief": 1,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 1,
+      "rate": 1.0
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Task 02 article is practical, well sourced, and includes automation value, ceremony boundary, limitation, and adoption advice."
+  },
+  {
+    "anonymous_id": "A009",
+    "coverage": {
+      "editorial_brief": 1,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 1,
+      "rate": 1.0
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Strong Task 02 article with concise maintainer framing, primary sources, realistic limitation, and direct recommendation."
+  },
+  {
+    "anonymous_id": "A010",
+    "coverage": {
+      "editorial_brief": 1,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 1,
+      "rate": 1.0
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Task 03 output is complete, distinguishes evidence from recommendations, and supplies an operational checklist and QA pass."
+  },
+  {
+    "anonymous_id": "A011",
+    "coverage": {
+      "editorial_brief": 1,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 1,
+      "rate": 1.0
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Complete Task 01 article with reproducibility/reliability distinction, mutable reference risk, five-item checklist, and pinning cost."
+  },
+  {
+    "anonymous_id": "A012",
+    "coverage": {
+      "editorial_brief": 1,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 1,
+      "rate": 1.0
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Complete Task 02 artifact; automation boundary, SemVer relationship, squash limitation, and trial recommendation are well supported."
+  },
+  {
+    "anonymous_id": "A013",
+    "coverage": {
+      "editorial_brief": 1,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 1,
+      "rate": 1.0
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Task 02 output is complete, sourced, and gives maintainers a practical adoption threshold and limitation."
+  },
+  {
+    "anonymous_id": "A014",
+    "coverage": {
+      "editorial_brief": 1,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 1,
+      "rate": 1.0
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 1,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 1,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Task 03 article is strong, but one claim about accessibility guidance is not clearly supported by the listed Google headings source."
+  },
+  {
+    "anonymous_id": "A015",
+    "coverage": {
+      "editorial_brief": 1,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 1,
+      "rate": 1.0
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Excellent Task 01 output with careful limits, strong primary documentation, checklist, and resolved QA issue."
+  },
+  {
+    "anonymous_id": "A016",
+    "coverage": {
+      "editorial_brief": 1,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 1,
+      "rate": 1.0
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Complete Task 01 article with clear distinction, mutable branch explanation, npm/Git evidence, checklist, and QA."
+  },
+  {
+    "anonymous_id": "A017",
+    "coverage": {
+      "editorial_brief": 1,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 1,
+      "rate": 1.0
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Strong Task 01 output; evidence supports pinning rationale, mutable references, checklist, limitations, and QA verdict."
+  },
+  {
+    "anonymous_id": "A018",
+    "coverage": {
+      "editorial_brief": 1,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 1,
+      "rate": 1.0
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Complete Task 02 artifact with clear automation value, ceremony boundary, merge-workflow limitation, and concise recommendation."
+  },
+  {
+    "anonymous_id": "A019",
+    "coverage": {
+      "editorial_brief": 1,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 1,
+      "rate": 1.0
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Excellent Task 03 output with sourced NIST/OpenAI risk claims, explicit recommendation boundary, checklist, and QA."
+  },
+  {
+    "anonymous_id": "A020",
+    "coverage": {
+      "editorial_brief": 1,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 1,
+      "rate": 1.0
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Complete Task 01 article with good source mapping, clear reproducibility boundary, five-item checklist, and pinning tradeoff."
+  },
+  {
+    "anonymous_id": "A021",
+    "coverage": {
+      "editorial_brief": 1,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 1,
+      "rate": 1.0
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Complete Task 02 output with official/spec sources, automation examples, cost discussion, limitation, and publishable QA."
+  },
+  {
+    "anonymous_id": "A022",
+    "coverage": {
+      "editorial_brief": 1,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 1,
+      "rate": 1.0
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Strong Task 02 article; SemVer, Release Please behavior, limitations, and minimal adoption policy are well integrated."
+  },
+  {
+    "anonymous_id": "A023",
+    "coverage": {
+      "editorial_brief": 1,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 1,
+      "rate": 1.0
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 1,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 1,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Task 01 article is complete, but the recommendation to prefer release tags alongside SHAs weakens the immutable-reference claim."
+  },
+  {
+    "anonymous_id": "A024",
+    "coverage": {
+      "editorial_brief": 1,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 1,
+      "rate": 1.0
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Excellent Task 03 output with sourced risk claims, explicit editorial gate design, checklist, and detailed QA."
+  },
+  {
+    "anonymous_id": "A025",
+    "coverage": {
+      "editorial_brief": 1,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 1,
+      "rate": 1.0
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Complete Task 02 article with visible evidence notes, automation and changelog discussion, limitation, and concise recommendation."
+  },
+  {
+    "anonymous_id": "A026",
+    "coverage": {
+      "editorial_brief": 1,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 1,
+      "rate": 1.0
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Complete Task 01 artifact with strong ecosystem examples, mutable-reference explanation, checklist, tradeoff, and QA pass."
+  },
+  {
+    "anonymous_id": "A027",
+    "coverage": {
+      "editorial_brief": 1,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 1,
+      "rate": 1.0
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 1,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 1,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Task 01 article is otherwise strong, but treating release tags as comparable to immutable SHAs is not fully supported."
+  },
+  {
+    "anonymous_id": "A028",
+    "coverage": {
+      "editorial_brief": 1,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 1,
+      "rate": 1.0
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Complete Task 01 output; evidence, article, checklist, pinning cost, and QA are all visible and well aligned."
+  },
+  {
+    "anonymous_id": "A029",
+    "coverage": {
+      "editorial_brief": 1,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 1,
+      "rate": 1.0
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Complete Task 01 output with primary sources, clear reproducibility distinction, mutable branch risk, checklist, and QA."
+  },
+  {
+    "anonymous_id": "A030",
+    "coverage": {
+      "editorial_brief": 1,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 1,
+      "rate": 1.0
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Complete Task 02 article with strong evidence pack, SemVer/changelog automation, limitation, recommendation, and QA."
+  }
+]

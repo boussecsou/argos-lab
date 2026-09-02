@@ -1,0 +1,940 @@
+{
+  "experiment": "E1.1",
+  "repository_commit": "8ab1f47",
+  "evaluator_count": 3,
+  "evaluator_files": [
+    "evaluator-gpt-5.4.json",
+    "evaluator-gpt-5.5.json",
+    "evaluator-gpt-5.6-sol.json"
+  ],
+  "by_condition": {
+    "free-skills": {
+      "observations": 15,
+      "mean_coverage": 1,
+      "mean_quality": 9.733,
+      "mean_unsupported_claims": 0.044,
+      "mean_unverifiable_citations": 0.111,
+      "mean_unnecessary_optional_capabilities": 0,
+      "false_successes": 1,
+      "incomplete_runs": 0
+    },
+    "argo": {
+      "observations": 15,
+      "mean_coverage": 1,
+      "mean_quality": 9.6,
+      "mean_unsupported_claims": 0.111,
+      "mean_unverifiable_citations": 0,
+      "mean_unnecessary_optional_capabilities": 0,
+      "false_successes": 1,
+      "incomplete_runs": 0
+    }
+  },
+  "by_model": {
+    "gpt-5.4": {
+      "free-skills": {
+        "observations": 3,
+        "mean_coverage": 1,
+        "mean_quality": 9.111,
+        "mean_unsupported_claims": 0.222,
+        "mean_unverifiable_citations": 0.556,
+        "mean_unnecessary_optional_capabilities": 0,
+        "false_successes": 1,
+        "incomplete_runs": 0
+      },
+      "argo": {
+        "observations": 3,
+        "mean_coverage": 1,
+        "mean_quality": 9.667,
+        "mean_unsupported_claims": 0,
+        "mean_unverifiable_citations": 0,
+        "mean_unnecessary_optional_capabilities": 0,
+        "false_successes": 0,
+        "incomplete_runs": 0
+      }
+    },
+    "gpt-5.5": {
+      "free-skills": {
+        "observations": 3,
+        "mean_coverage": 1,
+        "mean_quality": 10,
+        "mean_unsupported_claims": 0,
+        "mean_unverifiable_citations": 0,
+        "mean_unnecessary_optional_capabilities": 0,
+        "false_successes": 0,
+        "incomplete_runs": 0
+      },
+      "argo": {
+        "observations": 3,
+        "mean_coverage": 1,
+        "mean_quality": 9.556,
+        "mean_unsupported_claims": 0.111,
+        "mean_unverifiable_citations": 0,
+        "mean_unnecessary_optional_capabilities": 0,
+        "false_successes": 0,
+        "incomplete_runs": 0
+      }
+    },
+    "gpt-5.6-luna": {
+      "free-skills": {
+        "observations": 3,
+        "mean_coverage": 1,
+        "mean_quality": 10,
+        "mean_unsupported_claims": 0,
+        "mean_unverifiable_citations": 0,
+        "mean_unnecessary_optional_capabilities": 0,
+        "false_successes": 0,
+        "incomplete_runs": 0
+      },
+      "argo": {
+        "observations": 3,
+        "mean_coverage": 1,
+        "mean_quality": 9.111,
+        "mean_unsupported_claims": 0.444,
+        "mean_unverifiable_citations": 0,
+        "mean_unnecessary_optional_capabilities": 0,
+        "false_successes": 1,
+        "incomplete_runs": 0
+      }
+    },
+    "gpt-5.6-sol": {
+      "free-skills": {
+        "observations": 3,
+        "mean_coverage": 1,
+        "mean_quality": 10,
+        "mean_unsupported_claims": 0,
+        "mean_unverifiable_citations": 0,
+        "mean_unnecessary_optional_capabilities": 0,
+        "false_successes": 0,
+        "incomplete_runs": 0
+      },
+      "argo": {
+        "observations": 3,
+        "mean_coverage": 1,
+        "mean_quality": 10,
+        "mean_unsupported_claims": 0,
+        "mean_unverifiable_citations": 0,
+        "mean_unnecessary_optional_capabilities": 0,
+        "false_successes": 0,
+        "incomplete_runs": 0
+      }
+    },
+    "gpt-5.6-terra": {
+      "free-skills": {
+        "observations": 3,
+        "mean_coverage": 1,
+        "mean_quality": 9.556,
+        "mean_unsupported_claims": 0,
+        "mean_unverifiable_citations": 0,
+        "mean_unnecessary_optional_capabilities": 0,
+        "false_successes": 0,
+        "incomplete_runs": 0
+      },
+      "argo": {
+        "observations": 3,
+        "mean_coverage": 1,
+        "mean_quality": 9.667,
+        "mean_unsupported_claims": 0,
+        "mean_unverifiable_citations": 0,
+        "mean_unnecessary_optional_capabilities": 0,
+        "false_successes": 0,
+        "incomplete_runs": 0
+      }
+    }
+  },
+  "paired_coverage_wins": {
+    "argo": 0,
+    "free-skills": 0,
+    "ties": 5
+  },
+  "coverage_delta": 0,
+  "verdict": "Inconclusive",
+  "interpretation": "The first batch did not demonstrate an Argo coverage advantage; a ceiling effect prevents a strong refutation.",
+  "protocol_deviations": [
+    "The gpt-5.6-terra Argo runner inspected optional wrapper instructions during setup but did not activate them.",
+    "Mutable upstream branch references and live web evidence were used during the run window.",
+    "Each condition exposed only the four correct required Skills and no distractor registry, making full coverage unusually easy.",
+    "Each model-condition runner completed three tasks in one context, so task-level observations are not fully independent."
+  ],
+  "observations": [
+    {
+      "anonymous_id": "A001",
+      "model": "gpt-5.5",
+      "condition": "free-skills",
+      "task": "task-03",
+      "coverage": {
+        "editorial_brief": 1,
+        "article_evidence": 1,
+        "article_drafting": 1,
+        "editorial_qa": 1,
+        "rate": 1
+      },
+      "quality": {
+        "task_adherence": 2,
+        "factual_support": 2,
+        "structure_clarity": 2,
+        "audience_voice_fit": 2,
+        "publish_readiness": 2,
+        "total": 10
+      },
+      "unsupported_claims": 0,
+      "unverifiable_citations": 0,
+      "unnecessary_optional_capabilities": 0,
+      "false_success": false,
+      "incomplete": false
+    },
+    {
+      "anonymous_id": "A002",
+      "model": "gpt-5.4",
+      "condition": "argo",
+      "task": "task-03",
+      "coverage": {
+        "editorial_brief": 1,
+        "article_evidence": 1,
+        "article_drafting": 1,
+        "editorial_qa": 1,
+        "rate": 1
+      },
+      "quality": {
+        "task_adherence": 2,
+        "factual_support": 2,
+        "structure_clarity": 2,
+        "audience_voice_fit": 2,
+        "publish_readiness": 1.667,
+        "total": 9.667
+      },
+      "unsupported_claims": 0,
+      "unverifiable_citations": 0,
+      "unnecessary_optional_capabilities": 0,
+      "false_success": false,
+      "incomplete": false
+    },
+    {
+      "anonymous_id": "A003",
+      "model": "gpt-5.5",
+      "condition": "argo",
+      "task": "task-03",
+      "coverage": {
+        "editorial_brief": 1,
+        "article_evidence": 1,
+        "article_drafting": 1,
+        "editorial_qa": 1,
+        "rate": 1
+      },
+      "quality": {
+        "task_adherence": 2,
+        "factual_support": 2,
+        "structure_clarity": 2,
+        "audience_voice_fit": 2,
+        "publish_readiness": 1.667,
+        "total": 9.667
+      },
+      "unsupported_claims": 0,
+      "unverifiable_citations": 0,
+      "unnecessary_optional_capabilities": 0,
+      "false_success": false,
+      "incomplete": false
+    },
+    {
+      "anonymous_id": "A004",
+      "model": "gpt-5.6-terra",
+      "condition": "argo",
+      "task": "task-03",
+      "coverage": {
+        "editorial_brief": 1,
+        "article_evidence": 1,
+        "article_drafting": 1,
+        "editorial_qa": 1,
+        "rate": 1
+      },
+      "quality": {
+        "task_adherence": 2,
+        "factual_support": 2,
+        "structure_clarity": 2,
+        "audience_voice_fit": 2,
+        "publish_readiness": 1.667,
+        "total": 9.667
+      },
+      "unsupported_claims": 0,
+      "unverifiable_citations": 0,
+      "unnecessary_optional_capabilities": 0,
+      "false_success": false,
+      "incomplete": false
+    },
+    {
+      "anonymous_id": "A005",
+      "model": "gpt-5.6-luna",
+      "condition": "free-skills",
+      "task": "task-02",
+      "coverage": {
+        "editorial_brief": 1,
+        "article_evidence": 1,
+        "article_drafting": 1,
+        "editorial_qa": 1,
+        "rate": 1
+      },
+      "quality": {
+        "task_adherence": 2,
+        "factual_support": 2,
+        "structure_clarity": 2,
+        "audience_voice_fit": 2,
+        "publish_readiness": 2,
+        "total": 10
+      },
+      "unsupported_claims": 0,
+      "unverifiable_citations": 0,
+      "unnecessary_optional_capabilities": 0,
+      "false_success": false,
+      "incomplete": false
+    },
+    {
+      "anonymous_id": "A006",
+      "model": "gpt-5.4",
+      "condition": "free-skills",
+      "task": "task-03",
+      "coverage": {
+        "editorial_brief": 1,
+        "article_evidence": 1,
+        "article_drafting": 1,
+        "editorial_qa": 1,
+        "rate": 1
+      },
+      "quality": {
+        "task_adherence": 2,
+        "factual_support": 1,
+        "structure_clarity": 2,
+        "audience_voice_fit": 2,
+        "publish_readiness": 1,
+        "total": 8
+      },
+      "unsupported_claims": 0.667,
+      "unverifiable_citations": 1.667,
+      "unnecessary_optional_capabilities": 0,
+      "false_success": true,
+      "incomplete": false
+    },
+    {
+      "anonymous_id": "A007",
+      "model": "gpt-5.6-luna",
+      "condition": "free-skills",
+      "task": "task-03",
+      "coverage": {
+        "editorial_brief": 1,
+        "article_evidence": 1,
+        "article_drafting": 1,
+        "editorial_qa": 1,
+        "rate": 1
+      },
+      "quality": {
+        "task_adherence": 2,
+        "factual_support": 2,
+        "structure_clarity": 2,
+        "audience_voice_fit": 2,
+        "publish_readiness": 2,
+        "total": 10
+      },
+      "unsupported_claims": 0,
+      "unverifiable_citations": 0,
+      "unnecessary_optional_capabilities": 0,
+      "false_success": false,
+      "incomplete": false
+    },
+    {
+      "anonymous_id": "A008",
+      "model": "gpt-5.5",
+      "condition": "argo",
+      "task": "task-02",
+      "coverage": {
+        "editorial_brief": 1,
+        "article_evidence": 1,
+        "article_drafting": 1,
+        "editorial_qa": 1,
+        "rate": 1
+      },
+      "quality": {
+        "task_adherence": 2,
+        "factual_support": 2,
+        "structure_clarity": 2,
+        "audience_voice_fit": 2,
+        "publish_readiness": 1.667,
+        "total": 9.667
+      },
+      "unsupported_claims": 0,
+      "unverifiable_citations": 0,
+      "unnecessary_optional_capabilities": 0,
+      "false_success": false,
+      "incomplete": false
+    },
+    {
+      "anonymous_id": "A009",
+      "model": "gpt-5.6-terra",
+      "condition": "free-skills",
+      "task": "task-02",
+      "coverage": {
+        "editorial_brief": 1,
+        "article_evidence": 1,
+        "article_drafting": 1,
+        "editorial_qa": 1,
+        "rate": 1
+      },
+      "quality": {
+        "task_adherence": 2,
+        "factual_support": 2,
+        "structure_clarity": 2,
+        "audience_voice_fit": 2,
+        "publish_readiness": 1.667,
+        "total": 9.667
+      },
+      "unsupported_claims": 0,
+      "unverifiable_citations": 0,
+      "unnecessary_optional_capabilities": 0,
+      "false_success": false,
+      "incomplete": false
+    },
+    {
+      "anonymous_id": "A010",
+      "model": "gpt-5.6-terra",
+      "condition": "free-skills",
+      "task": "task-03",
+      "coverage": {
+        "editorial_brief": 1,
+        "article_evidence": 1,
+        "article_drafting": 1,
+        "editorial_qa": 1,
+        "rate": 1
+      },
+      "quality": {
+        "task_adherence": 2,
+        "factual_support": 1.667,
+        "structure_clarity": 2,
+        "audience_voice_fit": 2,
+        "publish_readiness": 1.667,
+        "total": 9.334
+      },
+      "unsupported_claims": 0,
+      "unverifiable_citations": 0,
+      "unnecessary_optional_capabilities": 0,
+      "false_success": false,
+      "incomplete": false
+    },
+    {
+      "anonymous_id": "A011",
+      "model": "gpt-5.5",
+      "condition": "free-skills",
+      "task": "task-01",
+      "coverage": {
+        "editorial_brief": 1,
+        "article_evidence": 1,
+        "article_drafting": 1,
+        "editorial_qa": 1,
+        "rate": 1
+      },
+      "quality": {
+        "task_adherence": 2,
+        "factual_support": 2,
+        "structure_clarity": 2,
+        "audience_voice_fit": 2,
+        "publish_readiness": 2,
+        "total": 10
+      },
+      "unsupported_claims": 0,
+      "unverifiable_citations": 0,
+      "unnecessary_optional_capabilities": 0,
+      "false_success": false,
+      "incomplete": false
+    },
+    {
+      "anonymous_id": "A012",
+      "model": "gpt-5.6-sol",
+      "condition": "free-skills",
+      "task": "task-02",
+      "coverage": {
+        "editorial_brief": 1,
+        "article_evidence": 1,
+        "article_drafting": 1,
+        "editorial_qa": 1,
+        "rate": 1
+      },
+      "quality": {
+        "task_adherence": 2,
+        "factual_support": 2,
+        "structure_clarity": 2,
+        "audience_voice_fit": 2,
+        "publish_readiness": 2,
+        "total": 10
+      },
+      "unsupported_claims": 0,
+      "unverifiable_citations": 0,
+      "unnecessary_optional_capabilities": 0,
+      "false_success": false,
+      "incomplete": false
+    },
+    {
+      "anonymous_id": "A013",
+      "model": "gpt-5.5",
+      "condition": "free-skills",
+      "task": "task-02",
+      "coverage": {
+        "editorial_brief": 1,
+        "article_evidence": 1,
+        "article_drafting": 1,
+        "editorial_qa": 1,
+        "rate": 1
+      },
+      "quality": {
+        "task_adherence": 2,
+        "factual_support": 2,
+        "structure_clarity": 2,
+        "audience_voice_fit": 2,
+        "publish_readiness": 2,
+        "total": 10
+      },
+      "unsupported_claims": 0,
+      "unverifiable_citations": 0,
+      "unnecessary_optional_capabilities": 0,
+      "false_success": false,
+      "incomplete": false
+    },
+    {
+      "anonymous_id": "A014",
+      "model": "gpt-5.6-luna",
+      "condition": "argo",
+      "task": "task-03",
+      "coverage": {
+        "editorial_brief": 1,
+        "article_evidence": 1,
+        "article_drafting": 1,
+        "editorial_qa": 1,
+        "rate": 1
+      },
+      "quality": {
+        "task_adherence": 2,
+        "factual_support": 1,
+        "structure_clarity": 2,
+        "audience_voice_fit": 2,
+        "publish_readiness": 1.333,
+        "total": 8.333
+      },
+      "unsupported_claims": 1,
+      "unverifiable_citations": 0,
+      "unnecessary_optional_capabilities": 0,
+      "false_success": true,
+      "incomplete": false
+    },
+    {
+      "anonymous_id": "A015",
+      "model": "gpt-5.6-sol",
+      "condition": "argo",
+      "task": "task-01",
+      "coverage": {
+        "editorial_brief": 1,
+        "article_evidence": 1,
+        "article_drafting": 1,
+        "editorial_qa": 1,
+        "rate": 1
+      },
+      "quality": {
+        "task_adherence": 2,
+        "factual_support": 2,
+        "structure_clarity": 2,
+        "audience_voice_fit": 2,
+        "publish_readiness": 2,
+        "total": 10
+      },
+      "unsupported_claims": 0,
+      "unverifiable_citations": 0,
+      "unnecessary_optional_capabilities": 0,
+      "false_success": false,
+      "incomplete": false
+    },
+    {
+      "anonymous_id": "A016",
+      "model": "gpt-5.6-terra",
+      "condition": "argo",
+      "task": "task-01",
+      "coverage": {
+        "editorial_brief": 1,
+        "article_evidence": 1,
+        "article_drafting": 1,
+        "editorial_qa": 1,
+        "rate": 1
+      },
+      "quality": {
+        "task_adherence": 2,
+        "factual_support": 2,
+        "structure_clarity": 2,
+        "audience_voice_fit": 2,
+        "publish_readiness": 1.667,
+        "total": 9.667
+      },
+      "unsupported_claims": 0,
+      "unverifiable_citations": 0,
+      "unnecessary_optional_capabilities": 0,
+      "false_success": false,
+      "incomplete": false
+    },
+    {
+      "anonymous_id": "A017",
+      "model": "gpt-5.6-sol",
+      "condition": "free-skills",
+      "task": "task-01",
+      "coverage": {
+        "editorial_brief": 1,
+        "article_evidence": 1,
+        "article_drafting": 1,
+        "editorial_qa": 1,
+        "rate": 1
+      },
+      "quality": {
+        "task_adherence": 2,
+        "factual_support": 2,
+        "structure_clarity": 2,
+        "audience_voice_fit": 2,
+        "publish_readiness": 2,
+        "total": 10
+      },
+      "unsupported_claims": 0,
+      "unverifiable_citations": 0,
+      "unnecessary_optional_capabilities": 0,
+      "false_success": false,
+      "incomplete": false
+    },
+    {
+      "anonymous_id": "A018",
+      "model": "gpt-5.6-terra",
+      "condition": "argo",
+      "task": "task-02",
+      "coverage": {
+        "editorial_brief": 1,
+        "article_evidence": 1,
+        "article_drafting": 1,
+        "editorial_qa": 1,
+        "rate": 1
+      },
+      "quality": {
+        "task_adherence": 2,
+        "factual_support": 2,
+        "structure_clarity": 2,
+        "audience_voice_fit": 2,
+        "publish_readiness": 1.667,
+        "total": 9.667
+      },
+      "unsupported_claims": 0,
+      "unverifiable_citations": 0,
+      "unnecessary_optional_capabilities": 0,
+      "false_success": false,
+      "incomplete": false
+    },
+    {
+      "anonymous_id": "A019",
+      "model": "gpt-5.6-sol",
+      "condition": "free-skills",
+      "task": "task-03",
+      "coverage": {
+        "editorial_brief": 1,
+        "article_evidence": 1,
+        "article_drafting": 1,
+        "editorial_qa": 1,
+        "rate": 1
+      },
+      "quality": {
+        "task_adherence": 2,
+        "factual_support": 2,
+        "structure_clarity": 2,
+        "audience_voice_fit": 2,
+        "publish_readiness": 2,
+        "total": 10
+      },
+      "unsupported_claims": 0,
+      "unverifiable_citations": 0,
+      "unnecessary_optional_capabilities": 0,
+      "false_success": false,
+      "incomplete": false
+    },
+    {
+      "anonymous_id": "A020",
+      "model": "gpt-5.6-luna",
+      "condition": "free-skills",
+      "task": "task-01",
+      "coverage": {
+        "editorial_brief": 1,
+        "article_evidence": 1,
+        "article_drafting": 1,
+        "editorial_qa": 1,
+        "rate": 1
+      },
+      "quality": {
+        "task_adherence": 2,
+        "factual_support": 2,
+        "structure_clarity": 2,
+        "audience_voice_fit": 2,
+        "publish_readiness": 2,
+        "total": 10
+      },
+      "unsupported_claims": 0,
+      "unverifiable_citations": 0,
+      "unnecessary_optional_capabilities": 0,
+      "false_success": false,
+      "incomplete": false
+    },
+    {
+      "anonymous_id": "A021",
+      "model": "gpt-5.4",
+      "condition": "argo",
+      "task": "task-02",
+      "coverage": {
+        "editorial_brief": 1,
+        "article_evidence": 1,
+        "article_drafting": 1,
+        "editorial_qa": 1,
+        "rate": 1
+      },
+      "quality": {
+        "task_adherence": 2,
+        "factual_support": 2,
+        "structure_clarity": 2,
+        "audience_voice_fit": 2,
+        "publish_readiness": 1.667,
+        "total": 9.667
+      },
+      "unsupported_claims": 0,
+      "unverifiable_citations": 0,
+      "unnecessary_optional_capabilities": 0,
+      "false_success": false,
+      "incomplete": false
+    },
+    {
+      "anonymous_id": "A022",
+      "model": "gpt-5.6-sol",
+      "condition": "argo",
+      "task": "task-02",
+      "coverage": {
+        "editorial_brief": 1,
+        "article_evidence": 1,
+        "article_drafting": 1,
+        "editorial_qa": 1,
+        "rate": 1
+      },
+      "quality": {
+        "task_adherence": 2,
+        "factual_support": 2,
+        "structure_clarity": 2,
+        "audience_voice_fit": 2,
+        "publish_readiness": 2,
+        "total": 10
+      },
+      "unsupported_claims": 0,
+      "unverifiable_citations": 0,
+      "unnecessary_optional_capabilities": 0,
+      "false_success": false,
+      "incomplete": false
+    },
+    {
+      "anonymous_id": "A023",
+      "model": "gpt-5.5",
+      "condition": "argo",
+      "task": "task-01",
+      "coverage": {
+        "editorial_brief": 1,
+        "article_evidence": 1,
+        "article_drafting": 1,
+        "editorial_qa": 1,
+        "rate": 1
+      },
+      "quality": {
+        "task_adherence": 2,
+        "factual_support": 1.667,
+        "structure_clarity": 2,
+        "audience_voice_fit": 2,
+        "publish_readiness": 1.667,
+        "total": 9.334
+      },
+      "unsupported_claims": 0.333,
+      "unverifiable_citations": 0,
+      "unnecessary_optional_capabilities": 0,
+      "false_success": false,
+      "incomplete": false
+    },
+    {
+      "anonymous_id": "A024",
+      "model": "gpt-5.6-sol",
+      "condition": "argo",
+      "task": "task-03",
+      "coverage": {
+        "editorial_brief": 1,
+        "article_evidence": 1,
+        "article_drafting": 1,
+        "editorial_qa": 1,
+        "rate": 1
+      },
+      "quality": {
+        "task_adherence": 2,
+        "factual_support": 2,
+        "structure_clarity": 2,
+        "audience_voice_fit": 2,
+        "publish_readiness": 2,
+        "total": 10
+      },
+      "unsupported_claims": 0,
+      "unverifiable_citations": 0,
+      "unnecessary_optional_capabilities": 0,
+      "false_success": false,
+      "incomplete": false
+    },
+    {
+      "anonymous_id": "A025",
+      "model": "gpt-5.4",
+      "condition": "free-skills",
+      "task": "task-02",
+      "coverage": {
+        "editorial_brief": 1,
+        "article_evidence": 1,
+        "article_drafting": 1,
+        "editorial_qa": 1,
+        "rate": 1
+      },
+      "quality": {
+        "task_adherence": 2,
+        "factual_support": 2,
+        "structure_clarity": 2,
+        "audience_voice_fit": 2,
+        "publish_readiness": 1.667,
+        "total": 9.667
+      },
+      "unsupported_claims": 0,
+      "unverifiable_citations": 0,
+      "unnecessary_optional_capabilities": 0,
+      "false_success": false,
+      "incomplete": false
+    },
+    {
+      "anonymous_id": "A026",
+      "model": "gpt-5.4",
+      "condition": "free-skills",
+      "task": "task-01",
+      "coverage": {
+        "editorial_brief": 1,
+        "article_evidence": 1,
+        "article_drafting": 1,
+        "editorial_qa": 1,
+        "rate": 1
+      },
+      "quality": {
+        "task_adherence": 2,
+        "factual_support": 2,
+        "structure_clarity": 2,
+        "audience_voice_fit": 2,
+        "publish_readiness": 1.667,
+        "total": 9.667
+      },
+      "unsupported_claims": 0,
+      "unverifiable_citations": 0,
+      "unnecessary_optional_capabilities": 0,
+      "false_success": false,
+      "incomplete": false
+    },
+    {
+      "anonymous_id": "A027",
+      "model": "gpt-5.6-luna",
+      "condition": "argo",
+      "task": "task-01",
+      "coverage": {
+        "editorial_brief": 1,
+        "article_evidence": 1,
+        "article_drafting": 1,
+        "editorial_qa": 1,
+        "rate": 1
+      },
+      "quality": {
+        "task_adherence": 2,
+        "factual_support": 1.667,
+        "structure_clarity": 2,
+        "audience_voice_fit": 2,
+        "publish_readiness": 1.667,
+        "total": 9.334
+      },
+      "unsupported_claims": 0.333,
+      "unverifiable_citations": 0,
+      "unnecessary_optional_capabilities": 0,
+      "false_success": false,
+      "incomplete": false
+    },
+    {
+      "anonymous_id": "A028",
+      "model": "gpt-5.6-terra",
+      "condition": "free-skills",
+      "task": "task-01",
+      "coverage": {
+        "editorial_brief": 1,
+        "article_evidence": 1,
+        "article_drafting": 1,
+        "editorial_qa": 1,
+        "rate": 1
+      },
+      "quality": {
+        "task_adherence": 2,
+        "factual_support": 2,
+        "structure_clarity": 2,
+        "audience_voice_fit": 2,
+        "publish_readiness": 1.667,
+        "total": 9.667
+      },
+      "unsupported_claims": 0,
+      "unverifiable_citations": 0,
+      "unnecessary_optional_capabilities": 0,
+      "false_success": false,
+      "incomplete": false
+    },
+    {
+      "anonymous_id": "A029",
+      "model": "gpt-5.4",
+      "condition": "argo",
+      "task": "task-01",
+      "coverage": {
+        "editorial_brief": 1,
+        "article_evidence": 1,
+        "article_drafting": 1,
+        "editorial_qa": 1,
+        "rate": 1
+      },
+      "quality": {
+        "task_adherence": 2,
+        "factual_support": 2,
+        "structure_clarity": 2,
+        "audience_voice_fit": 2,
+        "publish_readiness": 1.667,
+        "total": 9.667
+      },
+      "unsupported_claims": 0,
+      "unverifiable_citations": 0,
+      "unnecessary_optional_capabilities": 0,
+      "false_success": false,
+      "incomplete": false
+    },
+    {
+      "anonymous_id": "A030",
+      "model": "gpt-5.6-luna",
+      "condition": "argo",
+      "task": "task-02",
+      "coverage": {
+        "editorial_brief": 1,
+        "article_evidence": 1,
+        "article_drafting": 1,
+        "editorial_qa": 1,
+        "rate": 1
+      },
+      "quality": {
+        "task_adherence": 2,
+        "factual_support": 2,
+        "structure_clarity": 2,
+        "audience_voice_fit": 2,
+        "publish_readiness": 1.667,
+        "total": 9.667
+      },
+      "unsupported_claims": 0,
+      "unverifiable_citations": 0,
+      "unnecessary_optional_capabilities": 0,
+      "false_success": false,
+      "incomplete": false
+    }
+  ]
+}
