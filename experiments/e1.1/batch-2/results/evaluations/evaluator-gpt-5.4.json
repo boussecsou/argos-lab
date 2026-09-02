@@ -1,0 +1,722 @@
+[
+  {
+    "anonymous_id": "B001",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 0,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.25
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 1,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Strong article and source list, but no explicit brief, disclosed evidence gaps, or QA report."
+  },
+  {
+    "anonymous_id": "B002",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.5
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Well-supported, clearly bounded piece; missing explicit brief and QA artifact."
+  },
+  {
+    "anonymous_id": "B003",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 0,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.25
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 1,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Complete, persuasive article, but no explicit brief, gap disclosure, or QA report."
+  },
+  {
+    "anonymous_id": "B004",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 0,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.25
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 1,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Polished article with frontmatter, but no full editorial brief, explicit gap disclosure, or QA report."
+  },
+  {
+    "anonymous_id": "B005",
+    "coverage": {
+      "editorial_brief": 1,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 1,
+      "rate": 1
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Full package with clear brief, evidence pack, complete article, and explicit QA pass."
+  },
+  {
+    "anonymous_id": "B006",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 0,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.25
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 1,
+      "structure_clarity": 2,
+      "audience_voice_fit": 1,
+      "publish_readiness": 2,
+      "total": 8
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Readable and relevant, but evidence handling is thinner and no brief, gap note, or QA report is shown."
+  },
+  {
+    "anonymous_id": "B007",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 0,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.25
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 1,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Strong article with identifiable sources, but no explicit brief, disclosed gaps, or QA report."
+  },
+  {
+    "anonymous_id": "B008",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 0,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.25
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 1,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Covers the assignment well, but lacks an explicit brief, disclosed evidence gaps, and QA artifact."
+  },
+  {
+    "anonymous_id": "B009",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.5
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 1,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Good article with source-linked claims and boundary-setting language; no explicit brief or QA report."
+  },
+  {
+    "anonymous_id": "B010",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.5
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 1,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Clear and publishable article with explicit limits, but no standalone brief or QA report."
+  },
+  {
+    "anonymous_id": "B011",
+    "coverage": {
+      "editorial_brief": 1,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 1,
+      "rate": 1
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Complete deliverable set with observable brief, evidence, article, and QA coverage."
+  },
+  {
+    "anonymous_id": "B012",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 0,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.25
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 1,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Strong article with frontmatter, but no explicit editorial brief, disclosed gaps, or QA report."
+  },
+  {
+    "anonymous_id": "B013",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 0,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.25
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 1,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Well-argued article, but no explicit brief, gap disclosure, or QA report is visible."
+  },
+  {
+    "anonymous_id": "B014",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 0,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.25
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 1,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Clear maintainer-oriented article, but no explicit brief, disclosed evidence gaps, or QA report."
+  },
+  {
+    "anonymous_id": "B015",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.5
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Excellent source/recommendation separation and checklist; only the standalone brief and QA artifact are missing."
+  },
+  {
+    "anonymous_id": "B016",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 0,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.25
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 1,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Solid article with good examples, but no explicit brief, disclosed gaps, or QA report."
+  },
+  {
+    "anonymous_id": "B017",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.5
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Excellent article with clear limits and strong checklist; only brief and QA artifacts are absent."
+  },
+  {
+    "anonymous_id": "B018",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 0,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.25
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 1,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Good article and sources, but no explicit brief, gap disclosure, or QA report."
+  },
+  {
+    "anonymous_id": "B019",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 0,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.25
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 1,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Relevant, readable article, but no explicit brief, disclosed evidence gaps, or QA report."
+  },
+  {
+    "anonymous_id": "B020",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 0,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.25
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 1,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Strong assignment fit, but it omits an explicit brief, gap disclosure, and QA report."
+  },
+  {
+    "anonymous_id": "B021",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 0,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.25
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Excellent, nuanced article; missing only the standalone brief, explicit gap disclosure, and QA artifact."
+  },
+  {
+    "anonymous_id": "B022",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.5
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 1,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Good evidence use and explicit recommendations, but no standalone brief or QA report."
+  },
+  {
+    "anonymous_id": "B023",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 0,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.25
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 1,
+      "structure_clarity": 2,
+      "audience_voice_fit": 1,
+      "publish_readiness": 2,
+      "total": 8
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Serviceable article, but support is lighter and no explicit brief, gap note, or QA report is shown."
+  },
+  {
+    "anonymous_id": "B024",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.5
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Excellent article with clear limitations and checklist; only brief and QA artifacts are missing."
+  },
+  {
+    "anonymous_id": "B025",
+    "coverage": {
+      "editorial_brief": 1,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 1,
+      "rate": 1
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Complete package with observable brief, evidence, article, and QA report."
+  },
+  {
+    "anonymous_id": "B026",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 0,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.25
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 1,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Clear and useful article, but no explicit brief, disclosed evidence gaps, or QA report."
+  },
+  {
+    "anonymous_id": "B027",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.5
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 1,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Strong article with identifiable limits and checklist; no standalone brief or QA report."
+  },
+  {
+    "anonymous_id": "B028",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.5
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Excellent article with strong source/recommendation separation; missing only brief and QA artifacts."
+  },
+  {
+    "anonymous_id": "B029",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 0,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.25
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 1,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Good maintainer-facing article, but no explicit brief, disclosed gaps, or QA report."
+  },
+  {
+    "anonymous_id": "B030",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.5
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 1,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Strong article with clear limits and checklist; no standalone brief or QA report."
+  }
+]

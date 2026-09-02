@@ -1,0 +1,722 @@
+[
+  {
+    "anonymous_id": "B001",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.5
+    },
+    "quality": {
+      "task_adherence": 1,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Strong complete article with relevant sources and a pragmatic recommendation, but no observable editorial brief or QA report."
+  },
+  {
+    "anonymous_id": "B002",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.5
+    },
+    "quality": {
+      "task_adherence": 1,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Well-focused article with explicit sourced/recommendation distinction and a useful checklist; missing observable brief and pass/fail QA."
+  },
+  {
+    "anonymous_id": "B003",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.5
+    },
+    "quality": {
+      "task_adherence": 1,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Complete senior-engineer article covers reproducibility, mutable refs, checklist, and pinning costs; no separate brief or QA artifact."
+  },
+  {
+    "anonymous_id": "B004",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.5
+    },
+    "quality": {
+      "task_adherence": 1,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Publishable Conventional Commits article with front matter and connected sources; front matter is not a full editorial brief and no QA report is present."
+  },
+  {
+    "anonymous_id": "B005",
+    "coverage": {
+      "editorial_brief": 1,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 1,
+      "rate": 1.0
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 1,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Complete package with brief, evidence pack, article, and pass QA; optional copy-editing capability is claimed beyond the required set."
+  },
+  {
+    "anonymous_id": "B006",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.5
+    },
+    "quality": {
+      "task_adherence": 1,
+      "factual_support": 1,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 1,
+      "total": 7
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 1,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Clear editorial-gate article with checklist, but one cited OpenAI Help Center URL appears malformed and there is no brief or QA report."
+  },
+  {
+    "anonymous_id": "B007",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.5
+    },
+    "quality": {
+      "task_adherence": 1,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Strong article covering all requested editorial-gate themes with useful sources and checklist; missing observable brief and QA."
+  },
+  {
+    "anonymous_id": "B008",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.5
+    },
+    "quality": {
+      "task_adherence": 1,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Complete and well-structured dependency-pinning article with sources and a five-item checklist; lacks separate brief and QA report."
+  },
+  {
+    "anonymous_id": "B009",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.5
+    },
+    "quality": {
+      "task_adherence": 1,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Focused editorial-gate article with clear NIST grounding and checklist; no visible editorial brief or QA pass/fail report."
+  },
+  {
+    "anonymous_id": "B010",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.5
+    },
+    "quality": {
+      "task_adherence": 1,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Thorough article with evidence, proportional recommendation, and checklist; missing the required observable brief and QA report."
+  },
+  {
+    "anonymous_id": "B011",
+    "coverage": {
+      "editorial_brief": 1,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 1,
+      "rate": 1.0
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 1,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Complete artifact set with brief, evidence pack, article, and QA; optional copy-editing capability is claimed beyond required capabilities."
+  },
+  {
+    "anonymous_id": "B012",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.5
+    },
+    "quality": {
+      "task_adherence": 1,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Strong dependency-pinning article with front matter, source-backed claims, checklist, and cost discussion; no full brief or QA report."
+  },
+  {
+    "anonymous_id": "B013",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.5
+    },
+    "quality": {
+      "task_adherence": 1,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Good Conventional Commits article with automation value, limitations, and adoption recommendation; missing separate editorial brief and QA."
+  },
+  {
+    "anonymous_id": "B014",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.5
+    },
+    "quality": {
+      "task_adherence": 1,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Clear, nuanced Conventional Commits article with connected sources and practical adoption rule; no explicit brief or QA report."
+  },
+  {
+    "anonymous_id": "B015",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.5
+    },
+    "quality": {
+      "task_adherence": 1,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Strong editorial-gate article with sourced/recommendation separation and checklist; missing observable editorial brief and QA report."
+  },
+  {
+    "anonymous_id": "B016",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.5
+    },
+    "quality": {
+      "task_adherence": 1,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Complete dependency-pinning article with precise mutable-reference discussion and costs; no separate brief or QA artifact."
+  },
+  {
+    "anonymous_id": "B017",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.5
+    },
+    "quality": {
+      "task_adherence": 1,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Well-rounded reproducibility article with checklist, branch-risk explanation, and update-cost discussion; lacks brief and QA."
+  },
+  {
+    "anonymous_id": "B018",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.5
+    },
+    "quality": {
+      "task_adherence": 1,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Strong Conventional Commits article with realistic automation boundaries and adoption path; no observable brief or QA report."
+  },
+  {
+    "anonymous_id": "B019",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.5
+    },
+    "quality": {
+      "task_adherence": 1,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Maintainer-oriented Conventional Commits article with good limitation and recommendation; missing separate brief and QA."
+  },
+  {
+    "anonymous_id": "B020",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.5
+    },
+    "quality": {
+      "task_adherence": 1,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Clear and concise article covering automation, ceremony, limitation, and adoption rule; no editorial brief or QA artifact."
+  },
+  {
+    "anonymous_id": "B021",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.5
+    },
+    "quality": {
+      "task_adherence": 1,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Nuanced Conventional Commits article with connected evidence and pragmatic recommendation; missing explicit brief and QA."
+  },
+  {
+    "anonymous_id": "B022",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.5
+    },
+    "quality": {
+      "task_adherence": 1,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Good editorial-gate article with evidence and checklist; lacks a visible editorial brief and QA report."
+  },
+  {
+    "anonymous_id": "B023",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.5
+    },
+    "quality": {
+      "task_adherence": 1,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Solid article with traceability and accountability focus, plus a checklist; no separate brief or QA report."
+  },
+  {
+    "anonymous_id": "B024",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.5
+    },
+    "quality": {
+      "task_adherence": 1,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "High-quality dependency-pinning article with good evidence, checklist, and cost discussion; missing observable brief and QA."
+  },
+  {
+    "anonymous_id": "B025",
+    "coverage": {
+      "editorial_brief": 1,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 1,
+      "rate": 1.0
+    },
+    "quality": {
+      "task_adherence": 2,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 10
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 1,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Complete required artifact set and strong final article; optional copy-editing capability is claimed beyond the required set."
+  },
+  {
+    "anonymous_id": "B026",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.5
+    },
+    "quality": {
+      "task_adherence": 1,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Good dependency-pinning article with mutable-reference evidence and checklist; no explicit editorial brief or QA report."
+  },
+  {
+    "anonymous_id": "B027",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.5
+    },
+    "quality": {
+      "task_adherence": 1,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Complete, practical reproducibility article with relevant sources and five-item checklist; lacks separate brief and QA."
+  },
+  {
+    "anonymous_id": "B028",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.5
+    },
+    "quality": {
+      "task_adherence": 1,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Strong editorial-gate article with front matter and explicit sourced-versus-recommendation boundary; no full brief or QA report."
+  },
+  {
+    "anonymous_id": "B029",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.5
+    },
+    "quality": {
+      "task_adherence": 1,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Strong maintainer-focused Conventional Commits article with automation connection, limitation, and recommendation; no brief or QA."
+  },
+  {
+    "anonymous_id": "B030",
+    "coverage": {
+      "editorial_brief": 0,
+      "article_evidence": 1,
+      "article_drafting": 1,
+      "editorial_qa": 0,
+      "rate": 0.5
+    },
+    "quality": {
+      "task_adherence": 1,
+      "factual_support": 2,
+      "structure_clarity": 2,
+      "audience_voice_fit": 2,
+      "publish_readiness": 2,
+      "total": 9
+    },
+    "unsupported_claims": 0,
+    "unverifiable_citations": 0,
+    "unnecessary_optional_capabilities": 0,
+    "false_success": false,
+    "incomplete": false,
+    "notes": "Clear dependency-pinning article with relevant source support, checklist, and cost framing; missing explicit brief and QA."
+  }
+]
