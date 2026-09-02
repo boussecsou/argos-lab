@@ -7,7 +7,7 @@ ArgoLab is a public repository for reusable **Argo** packages. An Argo groups in
 Current package layout:
 
 ```text
-argos/
+prototypes/
   argo-<destination>/
     SKILL.md        # normative Argo contract
     argo.json       # machine-readable manifest

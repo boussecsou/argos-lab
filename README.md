@@ -7,7 +7,7 @@ An Argo is not a domain catalogue and not a rigid workflow. Its root contract de
 ## Repository layout
 
 ```text
-argos/
+prototypes/
   argo-write-article/       # Produce a publishable, evidence-backed article
   argo-resolve-hard-bug/    # Diagnose, fix, test, and review a difficult defect
 ```
