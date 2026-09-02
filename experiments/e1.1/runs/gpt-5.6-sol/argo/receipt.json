@@ -1,0 +1,74 @@
+{
+  "experiment": "e1.1",
+  "model": "gpt-5.6-sol",
+  "condition": "argo",
+  "argo": "argo-write-article",
+  "execution": "hard",
+  "tasks": [
+    {
+      "task": "task-01",
+      "output": "experiments/e1.1/runs/gpt-5.6-sol/argo/task-01.md",
+      "artifacts_produced": [
+        "editorial-brief",
+        "evidence-pack",
+        "article-draft",
+        "qa-report"
+      ],
+      "required_capabilities": {
+        "editorial-brief": "completed",
+        "article-evidence": "completed",
+        "article-drafting": "completed",
+        "editorial-qa": "completed"
+      },
+      "qa_verdict": "pass",
+      "unresolved_evidence_gaps": 0
+    },
+    {
+      "task": "task-02",
+      "output": "experiments/e1.1/runs/gpt-5.6-sol/argo/task-02.md",
+      "artifacts_produced": [
+        "editorial-brief",
+        "evidence-pack",
+        "article-draft",
+        "qa-report"
+      ],
+      "required_capabilities": {
+        "editorial-brief": "completed",
+        "article-evidence": "completed",
+        "article-drafting": "completed",
+        "editorial-qa": "completed"
+      },
+      "qa_verdict": "pass",
+      "unresolved_evidence_gaps": 0
+    },
+    {
+      "task": "task-03",
+      "output": "experiments/e1.1/runs/gpt-5.6-sol/argo/task-03.md",
+      "artifacts_produced": [
+        "editorial-brief",
+        "evidence-pack",
+        "article-draft",
+        "qa-report"
+      ],
+      "required_capabilities": {
+        "editorial-brief": "completed",
+        "article-evidence": "completed",
+        "article-drafting": "completed",
+        "editorial-qa": "completed"
+      },
+      "qa_verdict": "pass",
+      "unresolved_evidence_gaps": 0
+    }
+  ],
+  "optional_capabilities_activated": [],
+  "dynamic_substitutes": [
+    {
+      "capability": "article-evidence",
+      "substitute": "current-runtime web search and direct source retrieval"
+    }
+  ],
+  "limitations": [
+    "The upstream Skill files are external mutable branch references; their content was resolved live during this run.",
+    "Source-backed claims were verified against accessible primary documentation; recommendations are identified as editorial judgment rather than universal findings."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "experiment": "E1.1",
+  "model": "gpt-5.6-luna",
+  "condition": "free-skills",
+  "tasks": [
+    {
+      "id": "task-01",
+      "path": "experiments/e1.1/runs/gpt-5.6-luna/free-skills/task-01.md",
+      "status": "pass",
+      "observable_artifacts": ["editorial-brief", "evidence-pack", "article-draft", "qa-report"],
+      "required_capabilities": ["editorial-brief", "article-evidence", "article-drafting", "editorial-qa"],
+      "blocking_issues": 0
+    },
+    {
+      "id": "task-02",
+      "path": "experiments/e1.1/runs/gpt-5.6-luna/free-skills/task-02.md",
+      "status": "pass",
+      "observable_artifacts": ["editorial-brief", "evidence-pack", "article-draft", "qa-report"],
+      "required_capabilities": ["editorial-brief", "article-evidence", "article-drafting", "editorial-qa"],
+      "blocking_issues": 0
+    },
+    {
+      "id": "task-03",
+      "path": "experiments/e1.1/runs/gpt-5.6-luna/free-skills/task-03.md",
+      "status": "pass",
+      "observable_artifacts": ["editorial-brief", "evidence-pack", "article-draft", "qa-report"],
+      "required_capabilities": ["editorial-brief", "article-evidence", "article-drafting", "editorial-qa"],
+      "blocking_issues": 0
+    }
+  ],
+  "limitations": [
+    "External canonical Skill sources were not loaded; evidence used the locally exposed wrappers and primary technical documentation.",
+    "Pinning cannot by itself fix all operating-system, hardware, timestamp, registry, or native-toolchain nondeterminism.",
+    "The receipt records observable outputs only and contains no hidden reasoning."
+  ]
+}

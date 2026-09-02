@@ -1,0 +1,54 @@
+{
+  "experiment": "E1.1",
+  "model_block": "gpt-5.5",
+  "condition": "argo",
+  "repository_path": "/home/bouss/projects/ArgoLab",
+  "repository_commit": "13a4d77fd4eff4a7324a4726634c8dc7c5c52cd5",
+  "run_directory": "experiments/e1.1/runs/gpt-5.5/argo",
+  "outputs": [
+    "experiments/e1.1/runs/gpt-5.5/argo/task-01.md",
+    "experiments/e1.1/runs/gpt-5.5/argo/task-02.md",
+    "experiments/e1.1/runs/gpt-5.5/argo/task-03.md"
+  ],
+  "required_capabilities_observed": {
+    "task-01": ["editorial-brief", "article-evidence", "article-drafting", "editorial-qa"],
+    "task-02": ["editorial-brief", "article-evidence", "article-drafting", "editorial-qa"],
+    "task-03": ["editorial-brief", "article-evidence", "article-drafting", "editorial-qa"]
+  },
+  "optional_capabilities_loaded": [],
+  "source_material_read": [
+    "experiments/e1.1/README.md",
+    "experiments/e1.1/conditions/argo.md",
+    "experiments/e1.1/tasks/task-01.md",
+    "experiments/e1.1/tasks/task-02.md",
+    "experiments/e1.1/tasks/task-03.md",
+    "prototypes/argo-write-article/SKILL.md",
+    "prototypes/argo-write-article/argo.json",
+    "prototypes/argo-write-article/skills/editorial-brief/SKILL.md",
+    "prototypes/argo-write-article/skills/article-evidence/SKILL.md",
+    "prototypes/argo-write-article/skills/article-drafting/SKILL.md",
+    "prototypes/argo-write-article/skills/editorial-qa/SKILL.md",
+    "canonical upstream required Skill pages linked from wrappers, via GitHub web rendering"
+  ],
+  "prohibited_material_read": false,
+  "web_sources_used": [
+    "https://reproducible-builds.org/docs/definition/",
+    "https://docs.npmjs.com/files/package-lock.json/",
+    "https://pip.pypa.io/en/stable/topics/repeatable-installs/",
+    "https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell.html",
+    "https://www.conventionalcommits.org/en/v1.0.0/",
+    "https://semver.org/",
+    "https://github.com/googleapis/release-please",
+    "https://help.openai.com/en/articles/8313428-does-chatgpt-tell-the-truth",
+    "https://openai.com/index/why-language-models-hallucinate/",
+    "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10",
+    "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence",
+    "https://learn.microsoft.com/en-us/azure/ai-services/content-safety/concepts/groundedness"
+  ],
+  "limitations": [
+    "External canonical Skill references are branch-based and were loaded as live GitHub-rendered pages rather than pinned immutable revisions.",
+    "Task evidence used live web snapshots available during the run; saved articles cite stable/spec URLs where possible.",
+    "Existing unrelated untracked E1.1 run directories were observed in git status output but their contents were not opened or read."
+  ],
+  "completed_at": "2026-09-02T19:24:56+01:00"
+}

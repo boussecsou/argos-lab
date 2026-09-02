@@ -1,0 +1,26 @@
+{
+  "experiment": "E1.1",
+  "model": "gpt-5.6-terra",
+  "condition": "free-skills",
+  "tasks": {
+    "task-01": {
+      "file": "task-01.md",
+      "artifacts": ["editorial-brief", "evidence-pack", "article-draft", "qa-report"],
+      "status": "produced"
+    },
+    "task-02": {
+      "file": "task-02.md",
+      "artifacts": ["editorial-brief", "evidence-pack", "article-draft", "qa-report"],
+      "status": "produced"
+    },
+    "task-03": {
+      "file": "task-03.md",
+      "artifacts": ["editorial-brief", "evidence-pack", "article-draft", "qa-report"],
+      "status": "produced"
+    }
+  },
+  "tool_source_limitations": [
+    "Some canonical source pages were only reachable through their public raw GitHub copies.",
+    "Evidence uses public primary documentation and NIST material available in this runtime; inaccessible official pages were not cited."
+  ]
+}

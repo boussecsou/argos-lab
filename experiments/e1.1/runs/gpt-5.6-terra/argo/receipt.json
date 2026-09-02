@@ -1,0 +1,50 @@
+{
+  "experiment": "E1.1",
+  "condition": "argo",
+  "model_block": "gpt-5.6-terra",
+  "repository_commit": "13a4d77fd4eff4a7324a4726634c8dc7c5c52cd5",
+  "tasks": [
+    {
+      "task": "task-01",
+      "output": "task-01.md",
+      "status": "complete",
+      "required_capabilities": {
+        "editorial-brief": "completed",
+        "article-evidence": "completed",
+        "article-drafting": "completed",
+        "editorial-qa": "completed"
+      },
+      "optional_capabilities_activated": []
+    },
+    {
+      "task": "task-02",
+      "output": "task-02.md",
+      "status": "complete",
+      "required_capabilities": {
+        "editorial-brief": "completed",
+        "article-evidence": "completed",
+        "article-drafting": "completed",
+        "editorial-qa": "completed"
+      },
+      "optional_capabilities_activated": []
+    },
+    {
+      "task": "task-03",
+      "output": "task-03.md",
+      "status": "complete",
+      "required_capabilities": {
+        "editorial-brief": "completed",
+        "article-evidence": "completed",
+        "article-drafting": "completed",
+        "editorial-qa": "completed"
+      },
+      "optional_capabilities_activated": []
+    }
+  ],
+  "limitations": [
+    "Evidence is based on public documentation available during this run; no independent empirical testing was performed.",
+    "Approximate article word counts were checked locally; Markdown heading and list treatment can vary by counter.",
+    "Optional member wrapper instructions were inspected during package setup, but no optional capability was activated or used in the articles."
+  ],
+  "hidden_reasoning_included": false
+}

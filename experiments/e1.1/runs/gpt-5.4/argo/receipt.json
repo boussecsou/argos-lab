@@ -1,0 +1,48 @@
+{
+  "experiment": "E1.1",
+  "model": "gpt-5.4",
+  "condition": "argo",
+  "repo_commit": "13a4d77fd4eff4a7324a4726634c8dc7c5c52cd5",
+  "run_started_at_utc": "2026-09-02T18:26:51Z",
+  "run_finished_at_utc": "2026-09-02T18:29:50Z",
+  "outputs": [
+    "experiments/e1.1/runs/gpt-5.4/argo/task-01.md",
+    "experiments/e1.1/runs/gpt-5.4/argo/task-02.md",
+    "experiments/e1.1/runs/gpt-5.4/argo/task-03.md"
+  ],
+  "required_capabilities": [
+    "editorial-brief",
+    "article-evidence",
+    "article-drafting",
+    "editorial-qa"
+  ],
+  "optional_capabilities_loaded": [],
+  "evidence_runtime": {
+    "article-evidence_substitute": "live web search",
+    "competing_condition_read": false,
+    "rubric_read": false,
+    "prior_outputs_read": false
+  },
+  "task_results": [
+    {
+      "task": "task-01",
+      "status": "complete",
+      "qa_status": "pass"
+    },
+    {
+      "task": "task-02",
+      "status": "complete",
+      "qa_status": "pass"
+    },
+    {
+      "task": "task-03",
+      "status": "complete",
+      "qa_status": "pass"
+    }
+  ],
+  "limitations": [
+    "Evidence gathering used live web sources rather than an installed upstream research skill.",
+    "Upstream authoritative skill pages were reachable as GitHub web pages, but the run relied on their observable instructions rather than hidden implementation details.",
+    "No competing-condition materials, rubric files, or prior run outputs were read during article production."
+  ]
+}

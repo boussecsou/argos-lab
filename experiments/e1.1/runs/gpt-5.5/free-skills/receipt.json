@@ -1,0 +1,43 @@
+{
+  "experiment": "E1.1",
+  "model_block": "gpt-5.5",
+  "condition": "free-skills",
+  "repository_commit": "13a4d77fd4eff4a7324a4726634c8dc7c5c52cd5",
+  "run_directory": "experiments/e1.1/runs/gpt-5.5/free-skills",
+  "tasks": [
+    {
+      "task": "task-01",
+      "output_file": "task-01.md",
+      "artifacts": ["editorial-brief", "evidence-pack", "article-draft", "qa-report"],
+      "required_capabilities_used": ["editorial-brief", "article-evidence", "article-drafting", "editorial-qa"],
+      "optional_capabilities_used": [],
+      "qa_status": "pass",
+      "article_word_count": 544
+    },
+    {
+      "task": "task-02",
+      "output_file": "task-02.md",
+      "artifacts": ["editorial-brief", "evidence-pack", "article-draft", "qa-report"],
+      "required_capabilities_used": ["editorial-brief", "article-evidence", "article-drafting", "editorial-qa"],
+      "optional_capabilities_used": [],
+      "qa_status": "pass",
+      "article_word_count": 541
+    },
+    {
+      "task": "task-03",
+      "output_file": "task-03.md",
+      "artifacts": ["editorial-brief", "evidence-pack", "article-draft", "qa-report"],
+      "required_capabilities_used": ["editorial-brief", "article-evidence", "article-drafting", "editorial-qa"],
+      "optional_capabilities_used": [],
+      "qa_status": "pass",
+      "article_word_count": 563
+    }
+  ],
+  "prohibited_reading_observed": true,
+  "notes": [
+    "Read only the experiment controls, free-skills condition, task prompts, and the four allowed member Skill wrappers from the repository before writing outputs.",
+    "Used current-runtime web search for primary technical sources and reachable canonical Skill source pages. External branch-based references remain a reproducibility limitation of this batch.",
+    "Did not read the Argo root contract, argo.json, competing condition, rubric, optional member Skills, or prior run outputs.",
+    "No commit was created."
+  ]
+}

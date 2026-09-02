@@ -1,0 +1,50 @@
+{
+  "experiment": "E1.1",
+  "model": "gpt-5.4",
+  "condition": "free-skills",
+  "git_commit": "13a4d77fd4eff4a7324a4726634c8dc7c5c52cd5",
+  "completed_at_utc": "2026-09-02T18:23:01Z",
+  "artifacts": [
+    {
+      "task": "task-01",
+      "path": "experiments/e1.1/runs/gpt-5.4/free-skills/task-01.md",
+      "observable_sections": [
+        "Editorial Brief",
+        "Evidence Notes",
+        "Article",
+        "Editorial QA"
+      ]
+    },
+    {
+      "task": "task-02",
+      "path": "experiments/e1.1/runs/gpt-5.4/free-skills/task-02.md",
+      "observable_sections": [
+        "Editorial Brief",
+        "Evidence Notes",
+        "Article",
+        "Editorial QA"
+      ]
+    },
+    {
+      "task": "task-03",
+      "path": "experiments/e1.1/runs/gpt-5.4/free-skills/task-03.md",
+      "observable_sections": [
+        "Editorial Brief",
+        "Evidence Notes",
+        "Article",
+        "Editorial QA"
+      ]
+    }
+  ],
+  "constraints_observed": [
+    "Did not read the Argo root contract or argo.json.",
+    "Did not read the competing condition file.",
+    "Did not read the rubric.",
+    "Did not inspect prior run outputs before completing this run.",
+    "Did not include hidden reasoning."
+  ],
+  "limitations": [
+    "Source verification relied on publicly accessible primary documentation and current web search snippets/pages available during the run.",
+    "No rubric-based self-scoring was performed because the rubric was intentionally not read."
+  ]
+}

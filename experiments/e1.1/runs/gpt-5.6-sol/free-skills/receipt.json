@@ -1,0 +1,62 @@
+{
+  "experiment": "e1.1",
+  "model_block": "gpt-5.6-sol",
+  "condition": "free-skills",
+  "tasks": {
+    "task-01": {
+      "output": "task-01.md",
+      "article_word_count": 574,
+      "artifacts_produced": [
+        "editorial-brief",
+        "evidence-pack",
+        "article-draft",
+        "qa-report",
+        "execution-receipt"
+      ],
+      "external_sources": [
+        "Reproducible Builds project",
+        "pip documentation",
+        "GitHub Docs"
+      ],
+      "optional_capabilities_used": []
+    },
+    "task-02": {
+      "output": "task-02.md",
+      "article_word_count": 554,
+      "artifacts_produced": [
+        "editorial-brief",
+        "evidence-pack",
+        "article-draft",
+        "qa-report",
+        "execution-receipt"
+      ],
+      "external_sources": [
+        "Conventional Commits specification",
+        "Semantic Versioning specification",
+        "semantic-release documentation"
+      ],
+      "optional_capabilities_used": []
+    },
+    "task-03": {
+      "output": "task-03.md",
+      "article_word_count": 543,
+      "artifacts_produced": [
+        "editorial-brief",
+        "evidence-pack",
+        "article-draft",
+        "qa-report",
+        "execution-receipt"
+      ],
+      "external_sources": [
+        "NIST AI 600-1",
+        "OpenAI Help Center"
+      ],
+      "optional_capabilities_used": []
+    }
+  },
+  "tool_limitations": [
+    "Canonical Skill files were reachable through GitHub's rendered or raw views, but the web reader collapsed some raw Markdown into long lines.",
+    "No dedicated installed research Skill was available; live web search implemented the evidence capability.",
+    "No quantitative evidence was found for the maintenance cost of strict pinning or a universal Conventional Commits adoption threshold; both gaps are disclosed in the corresponding evidence packs."
+  ]
+}
