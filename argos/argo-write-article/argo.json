@@ -1,0 +1,146 @@
+{
+  "kind": "argo",
+  "name": "argo-write-article",
+  "version": "1",
+  "execution": "hard",
+  "binding": "hybrid",
+  "destination": "Produce a publishable, evidence-backed article that matches the requested audience, angle, length, and quality bar.",
+  "local_semantics": {
+    "hard": "Every member marked required must materially participate before success may be claimed. Optional members remain runtime-selectable. Hard constrains participation, not execution order.",
+    "required_satisfaction": "A required member may be satisfied by accepted sufficient work already present in context. Invented sources and unreviewed drafts do not count.",
+    "bindings": {
+      "embedded": "Method ships inside this package.",
+      "reference": "Resolve a known Skill identity.",
+      "dynamic": "Resolve any compatible implementation of the declared capability."
+    }
+  },
+  "member_count": 9,
+  "members": [
+    {
+      "role": "audience-insight",
+      "skill": "audience-insight",
+      "canonical_skill": "customer-research",
+      "binding": "reference",
+      "required": false,
+      "source": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/customer-research/SKILL.md",
+      "local_wrapper": "skills/audience-insight/SKILL.md"
+    },
+    {
+      "role": "editorial-brief",
+      "skill": "editorial-brief",
+      "canonical_skill": "content-brief-authoring",
+      "binding": "reference",
+      "required": true,
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/content-brief-authoring/SKILL.md",
+      "local_wrapper": "skills/editorial-brief/SKILL.md"
+    },
+    {
+      "role": "article-evidence",
+      "skill": "article-evidence",
+      "canonical_skill": "content-research-writer",
+      "binding": "hybrid",
+      "required": true,
+      "source": "https://github.com/ComposioHQ/awesome-claude-skills/blob/master/content-research-writer/SKILL.md",
+      "local_wrapper": "skills/article-evidence/SKILL.md",
+      "dynamic_compatible": [
+        "content-research-writer",
+        "any research Skill that cites sources and discloses gaps"
+      ]
+    },
+    {
+      "role": "article-drafting",
+      "skill": "article-drafting",
+      "canonical_skill": "content-and-copy",
+      "binding": "reference",
+      "required": true,
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/content-and-copy/SKILL.md",
+      "local_wrapper": "skills/article-drafting/SKILL.md"
+    },
+    {
+      "role": "long-form-structure",
+      "skill": "long-form-structure",
+      "canonical_skill": "long-form-content-frameworks",
+      "binding": "reference",
+      "required": false,
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/long-form-content-frameworks/SKILL.md",
+      "local_wrapper": "skills/long-form-structure/SKILL.md"
+    },
+    {
+      "role": "copy-editing",
+      "skill": "copy-editing",
+      "canonical_skill": "copy-editing",
+      "binding": "reference",
+      "required": false,
+      "source": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/copy-editing/SKILL.md",
+      "local_wrapper": "skills/copy-editing/SKILL.md"
+    },
+    {
+      "role": "editorial-qa",
+      "skill": "editorial-qa",
+      "canonical_skill": "editorial-qa",
+      "binding": "reference",
+      "required": true,
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/editorial-qa/SKILL.md",
+      "local_wrapper": "skills/editorial-qa/SKILL.md"
+    },
+    {
+      "role": "voice-humanize",
+      "skill": "voice-humanize",
+      "canonical_skill": null,
+      "binding": "dynamic",
+      "required": false,
+      "resolution_hints": [
+        "avoid-ai-writing",
+        "anti-ai-writing",
+        "blog-humanizer",
+        "voice-dna"
+      ],
+      "local_wrapper": "skills/voice-humanize/SKILL.md"
+    },
+    {
+      "role": "seo-article-fit",
+      "skill": "seo-article-fit",
+      "canonical_skill": null,
+      "binding": "dynamic",
+      "required": false,
+      "resolution_hints": [
+        "seo-audit",
+        "seo-content-writer",
+        "seo-brief"
+      ],
+      "local_wrapper": "skills/seo-article-fit/SKILL.md"
+    }
+  ],
+  "intentionally_excluded": [
+    {
+      "skill": "social",
+      "reason": "Primary social deliverables change the Destination into a content-system or social pack."
+    },
+    {
+      "skill": "content-repurposing",
+      "reason": "Derivative assets are useful after the article exists, but they are not required to produce the article."
+    },
+    {
+      "skill": "content-strategy",
+      "reason": "Calendar and portfolio planning is a different Destination. Use it outside this Argo when the user has not chosen an article yet."
+    },
+    {
+      "package": "cpt-content-creation",
+      "reason": "Broader flexible content Composition. Reuse its member Skills where they fit; do not nest the whole Composition."
+    }
+  ],
+  "artifacts": [
+    "audience-notes",
+    "editorial-brief",
+    "evidence-pack",
+    "article-draft",
+    "edited-draft",
+    "qa-report"
+  ],
+  "definition_of_done": [
+    "A complete article exists.",
+    "The article matches the brief or an explicit constraint change is stated.",
+    "Factual claims are evidenced or gaps are disclosed.",
+    "editorial-qa materially participated with no unaddressed blocking issues."
+  ]
+}

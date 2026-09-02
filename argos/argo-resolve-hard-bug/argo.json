@@ -1,0 +1,37 @@
+{
+  "kind": "argo",
+  "name": "argo-resolve-hard-bug",
+  "version": "1",
+  "execution": "hard",
+  "destination": "Resolve a difficult software defect with a validated root cause, a regression-protected fix, and a review of the resulting patch against repository standards and the originating specification when available.",
+  "members": [
+    {
+      "role": "causal-diagnosis",
+      "binding": "embedded",
+      "skill": "diagnosing-bugs",
+      "path": "skills/diagnosing-bugs/SKILL.md",
+      "required": true
+    },
+    {
+      "role": "test-seam-design",
+      "binding": "embedded",
+      "skill": "codebase-design",
+      "path": "skills/codebase-design/SKILL.md",
+      "required": false
+    },
+    {
+      "role": "regression-protected-fix",
+      "binding": "embedded",
+      "skill": "tdd",
+      "path": "skills/tdd/SKILL.md",
+      "required": true
+    },
+    {
+      "role": "patch-review",
+      "binding": "embedded",
+      "skill": "code-review",
+      "path": "skills/code-review/SKILL.md",
+      "required": true
+    }
+  ]
+}
