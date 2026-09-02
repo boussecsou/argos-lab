@@ -4,6 +4,10 @@
 
 ArgoLab is a public repository for reusable **Argo** packages. An Argo groups independently reusable Skills around one concrete Destination. The root `SKILL.md` in each package is the normative human-readable contract; `argo.json` is its machine-readable projection.
 
+## Repository language
+
+English is the primary and required language for tracked documentation, source files, experiment protocols, fixtures, reports, and commit messages. Users may communicate with agents in another language; translate repository-facing output to English before saving it.
+
 Current package layout:
 
 ```text
@@ -68,8 +72,18 @@ Argos Project
 Argos Documentation
   page ID: 3caeba09-656f-8002-91ac-faa0ce6a3524
   URL: https://app.notion.com/p/3caeba09656f800291acfaa0ce6a3524
+
+Experimentation database
+  Path: Ali B. Workspace → Build Studio → Project Portfolio → Argos Project → Argo Research Lab
+  Database ID: aaa71900-abe1-4872-8faf-90975a19b6e7
+  Data source ID: collection://6fe58d55-2238-4c5d-8b01-713931a38c86
+
+Conclusions database
+  Path: Ali B. Workspace → Build Studio → Project Portfolio → Argos Project → Argo Conclusions
+  Database ID: 47cc9b7f-1bd8-4837-bad4-40cc5de34c66
+  Data source ID: collection://207e60a4-bdd1-45f9-bdc5-ca95db8377a7
 ```
 
-Fetch `Argos Project` first for project status and linked artifacts. Fetch `Argos Documentation` directly for the full conceptual model, current decisions, experiments, and next steps. Search Notion only when these pages do not answer the question or when looking for newly created related records.
+Fetch `Argos Project` first for project status and linked artifacts. Fetch `Argos Documentation` directly for the full conceptual model, current decisions, experiments, and next steps. Use **Argo Research Lab** as the source database for experimentation records. Search Notion only when these pages do not answer the question or when looking for newly created related records.
 
 The Notion documentation is experimental, not a public standard. Do not present its hypotheses as settled specifications without clearly labeling them as proposed or validated by tests.
