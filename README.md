@@ -10,6 +10,10 @@ An Argo is not a domain catalogue and not a rigid workflow. Its root contract de
 prototypes/
   argo-write-article/       # Produce a publishable, evidence-backed article
   argo-resolve-hard-bug/    # Diagnose, fix, test, and review a difficult defect
+experiments/
+  e1.1/                     # Controlled Argo vs free-Skills coverage experiment
+skills/
+  argo-creator/             # Canonical Argo authoring and audit Skill
 ```
 
 Each package centers on:

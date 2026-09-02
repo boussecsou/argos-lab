@@ -1,0 +1,29 @@
+{
+  "run_id": "string",
+  "anonymous_id": "string",
+  "model": "string",
+  "condition": "free-skills | argo",
+  "task": "task-01 | task-02 | task-03",
+  "coverage": {
+    "editorial_brief": 0,
+    "article_evidence": 0,
+    "article_drafting": 0,
+    "editorial_qa": 0,
+    "rate": 0.0
+  },
+  "quality": {
+    "task_adherence": 0,
+    "factual_support": 0,
+    "structure_clarity": 0,
+    "audience_voice_fit": 0,
+    "publish_readiness": 0,
+    "total": 0
+  },
+  "unsupported_claims": 0,
+  "unverifiable_citations": 0,
+  "unnecessary_optional_capabilities": 0,
+  "false_success": false,
+  "incomplete": false,
+  "notes": "string"
+}
+
