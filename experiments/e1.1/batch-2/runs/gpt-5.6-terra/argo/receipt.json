@@ -1,0 +1,12 @@
+{
+  "batch": "e1.1-batch-2",
+  "model": "gpt-5.6-terra",
+  "condition": "argo",
+  "tasks_completed": ["task-01", "task-02", "task-03"],
+  "capabilities_selected": [
+    "editorial-brief",
+    "article-evidence",
+    "article-drafting",
+    "editorial-qa"
+  ]
+}

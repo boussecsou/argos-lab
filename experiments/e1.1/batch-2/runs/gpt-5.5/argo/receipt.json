@@ -1,0 +1,84 @@
+{
+  "experiment": "E1.1 batch 2",
+  "condition": "argo",
+  "model": "gpt-5.5",
+  "output_directory": "experiments/e1.1/batch-2/runs/gpt-5.5/argo",
+  "runner_context_limitation": "One runner handled the Argo condition and all three unchanged tasks.",
+  "read_inputs": [
+    "experiments/e1.1/batch-2/README.md",
+    "experiments/e1.1/batch-2/registry.md",
+    "experiments/e1.1/batch-2/argo.md",
+    "experiments/e1.1/tasks/task-01.md",
+    "experiments/e1.1/tasks/task-02.md",
+    "experiments/e1.1/tasks/task-03.md",
+    "prototypes/argo-write-article/SKILL.md",
+    "prototypes/argo-write-article/argo.json",
+    "prototypes/argo-write-article/skills/editorial-brief/SKILL.md",
+    "prototypes/argo-write-article/skills/article-evidence/SKILL.md",
+    "prototypes/argo-write-article/skills/article-drafting/SKILL.md",
+    "prototypes/argo-write-article/skills/copy-editing/SKILL.md",
+    "prototypes/argo-write-article/skills/editorial-qa/SKILL.md"
+  ],
+  "capabilities_selected": [
+    "argo-write-article",
+    "editorial-brief",
+    "article-evidence",
+    "article-drafting",
+    "copy-editing",
+    "editorial-qa"
+  ],
+  "capabilities_skipped": [
+    "audience-insight",
+    "long-form-structure",
+    "voice-humanize",
+    "seo-article-fit",
+    "diagnosing-bugs",
+    "codebase-design",
+    "tdd",
+    "code-review",
+    "argo-creator",
+    "frontend-design",
+    "web-design-guidelines",
+    "imagegen",
+    "openai-docs",
+    "langgraph-python-quickstart",
+    "plugin-creator"
+  ],
+  "required_member_participation": {
+    "task-01": [
+      "editorial-brief",
+      "article-evidence",
+      "article-drafting",
+      "editorial-qa"
+    ],
+    "task-02": [
+      "editorial-brief",
+      "article-evidence",
+      "article-drafting",
+      "editorial-qa"
+    ],
+    "task-03": [
+      "editorial-brief",
+      "article-evidence",
+      "article-drafting",
+      "editorial-qa"
+    ]
+  },
+  "optional_member_participation": {
+    "task-01": [
+      "copy-editing"
+    ],
+    "task-02": [
+      "copy-editing"
+    ],
+    "task-03": [
+      "copy-editing"
+    ]
+  },
+  "outputs": [
+    "experiments/e1.1/batch-2/runs/gpt-5.5/argo/task-01.md",
+    "experiments/e1.1/batch-2/runs/gpt-5.5/argo/task-02.md",
+    "experiments/e1.1/batch-2/runs/gpt-5.5/argo/task-03.md"
+  ],
+  "status": "complete"
+}

@@ -1,0 +1,23 @@
+{
+  "experiment": "e1.1",
+  "batch": 2,
+  "model": "gpt-5.4",
+  "condition": "free-skills",
+  "tasks_completed": [
+    "task-01",
+    "task-02",
+    "task-03"
+  ],
+  "capabilities_selected": [
+    "editorial-brief",
+    "article-evidence",
+    "article-drafting",
+    "editorial-qa"
+  ],
+  "notes": [
+    "Runner-level context limitation observed: this run handled only the free-skills condition and tasks 01-03.",
+    "Did not read the competing condition, rubric, prior run outputs, batch-one report, or blinded mappings.",
+    "Did not read the Argo root or manifest."
+  ],
+  "written_on": "2026-09-02"
+}

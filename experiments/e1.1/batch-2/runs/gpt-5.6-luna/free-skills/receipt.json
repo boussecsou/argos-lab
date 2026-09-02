@@ -1,0 +1,19 @@
+{
+  "experiment": "E1.1",
+  "batch": "batch-2",
+  "model": "gpt-5.6-luna",
+  "condition": "free-skills",
+  "capabilities_selected": [
+    "editorial-brief",
+    "article-evidence",
+    "article-drafting",
+    "editorial-qa"
+  ],
+  "task_capabilities": {
+    "task-01": ["editorial-brief", "article-evidence", "article-drafting", "editorial-qa"],
+    "task-02": ["editorial-brief", "article-evidence", "article-drafting", "editorial-qa"],
+    "task-03": ["editorial-brief", "article-evidence", "article-drafting", "editorial-qa"]
+  },
+  "outputs": ["task-01.md", "task-02.md", "task-03.md"],
+  "language": "English"
+}

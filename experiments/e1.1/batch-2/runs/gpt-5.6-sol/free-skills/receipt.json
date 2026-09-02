@@ -1,0 +1,45 @@
+{
+  "model": "gpt-5.6-sol",
+  "condition": "free-skills",
+  "tasks": [
+    {
+      "task": "task-01",
+      "capabilities": [
+        "editorial-brief",
+        "article-evidence",
+        "article-drafting",
+        "editorial-qa"
+      ],
+      "limitations": [
+        "No house style, internal-link targets, or experiment-specific environment files were provided; the task brief supplied the working voice and constraints."
+      ]
+    },
+    {
+      "task": "task-02",
+      "capabilities": [
+        "editorial-brief",
+        "article-evidence",
+        "article-drafting",
+        "editorial-qa"
+      ],
+      "limitations": [
+        "The recommendation is ecosystem-neutral, but the primary automation example is semantic-release because its documentation directly exposes the commit-to-release workflow."
+      ]
+    },
+    {
+      "task": "task-03",
+      "capabilities": [
+        "editorial-brief",
+        "article-evidence",
+        "article-drafting",
+        "editorial-qa"
+      ],
+      "limitations": [
+        "The quality-gate design is an editorial recommendation derived from the cited risks and controls, not a claim that one universal workflow has been empirically validated."
+      ]
+    }
+  ],
+  "runner_limitations": [
+    "One runner handled all three tasks within this condition, so the task observations are not independent at the runner-context level."
+  ]
+}

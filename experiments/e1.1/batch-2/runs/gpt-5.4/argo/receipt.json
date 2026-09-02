@@ -1,0 +1,44 @@
+{
+  "model": "gpt-5.4",
+  "condition": "argo",
+  "argo": "argo-write-article",
+  "selected_capabilities": [
+    "editorial-brief",
+    "article-evidence",
+    "article-drafting",
+    "editorial-qa"
+  ],
+  "tasks": [
+    {
+      "task": "task-01",
+      "status": "completed",
+      "capabilities": [
+        "editorial-brief",
+        "article-evidence",
+        "article-drafting",
+        "editorial-qa"
+      ]
+    },
+    {
+      "task": "task-02",
+      "status": "completed",
+      "capabilities": [
+        "editorial-brief",
+        "article-evidence",
+        "article-drafting",
+        "editorial-qa"
+      ]
+    },
+    {
+      "task": "task-03",
+      "status": "completed",
+      "capabilities": [
+        "editorial-brief",
+        "article-evidence",
+        "article-drafting",
+        "editorial-qa"
+      ]
+    }
+  ],
+  "disclosure": "Runner-level context limitation observed: this run used only the assigned batch-2 materials, the Argo condition files, the unchanged task prompts, and selected argo-write-article member skills; it did not inspect the competing condition, rubric, prior runs, batch-one findings, or blinded mappings."
+}

@@ -1,0 +1,16 @@
+{
+  "model": "gpt-5.6-terra",
+  "condition": "free-skills",
+  "selected_capabilities": [
+    "editorial-brief",
+    "article-evidence",
+    "article-drafting",
+    "editorial-qa"
+  ],
+  "distractor_capabilities_selected": [],
+  "outputs": [
+    "task-01.md",
+    "task-02.md",
+    "task-03.md"
+  ]
+}

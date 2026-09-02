@@ -1,0 +1,51 @@
+{
+  "experiment": "E1.1",
+  "batch": 2,
+  "model": "gpt-5.6-sol",
+  "condition": "argo",
+  "argo": "argo-write-article",
+  "tasks": [
+    {
+      "task": "task-01",
+      "output": "task-01.md",
+      "capabilities_selected": [
+        "editorial-brief",
+        "article-evidence",
+        "article-drafting",
+        "editorial-qa"
+      ],
+      "evidence_implementation": "live web search of primary and official sources",
+      "qa_result": "pass"
+    },
+    {
+      "task": "task-02",
+      "output": "task-02.md",
+      "capabilities_selected": [
+        "editorial-brief",
+        "article-evidence",
+        "article-drafting",
+        "editorial-qa"
+      ],
+      "evidence_implementation": "live web search of primary and official sources",
+      "qa_result": "pass"
+    },
+    {
+      "task": "task-03",
+      "output": "task-03.md",
+      "capabilities_selected": [
+        "editorial-brief",
+        "article-evidence",
+        "article-drafting",
+        "editorial-qa"
+      ],
+      "evidence_implementation": "live web search of primary technical sources and official guidance",
+      "qa_result": "pass"
+    }
+  ],
+  "optional_capabilities_selected": [],
+  "limitations": [
+    "One runner handled the condition and all three tasks, creating runner-level context dependence across task outputs.",
+    "Evidence was checked against sources accessible on 2026-09-02; linked documents may later change.",
+    "Editorial QA was a static pre-publication review, not independent replication or specialist peer review."
+  ]
+}

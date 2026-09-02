@@ -1,0 +1,30 @@
+{
+  "experiment": "E1.1",
+  "batch": "2",
+  "model": "gpt-5.5",
+  "condition": "free-skills",
+  "tasks_completed": [
+    "task-01",
+    "task-02",
+    "task-03"
+  ],
+  "capabilities_selected": [
+    "editorial-brief",
+    "article-evidence",
+    "article-drafting",
+    "editorial-qa"
+  ],
+  "capabilities_loaded": [
+    "prototypes/argo-write-article/skills/editorial-brief/SKILL.md",
+    "prototypes/argo-write-article/skills/article-evidence/SKILL.md",
+    "prototypes/argo-write-article/skills/article-drafting/SKILL.md",
+    "prototypes/argo-write-article/skills/editorial-qa/SKILL.md"
+  ],
+  "task_outputs": [
+    "experiments/e1.1/batch-2/runs/gpt-5.5/free-skills/task-01.md",
+    "experiments/e1.1/batch-2/runs/gpt-5.5/free-skills/task-02.md",
+    "experiments/e1.1/batch-2/runs/gpt-5.5/free-skills/task-03.md"
+  ],
+  "constraint_disclosure": "Runner handled one condition and three tasks. Read batch-2 README, registry, free-skills condition, tasks 01-03, and selected capability files only from the repository experiment materials; did not read the Argo root or manifest, competing condition, rubric, prior run outputs, batch-one report, or blinded mappings.",
+  "status": "complete"
+}

@@ -1,0 +1,21 @@
+# Conventional Commits: Automation With an Exit Ramp
+
+For a small public repository, commit messages are part of the project’s interface. They are read by maintainers, contributors, release tooling, and future users trying to understand why a change happened. Conventional Commits gives that interface a compact grammar: a required type, an optional scope, a colon, and a description, with optional body and footers. The specification is deliberately a convention rather than a new version-control system.
+
+The payoff appears when a tool can consume the history without guessing. The specification associates `fix` with a patch release, `feat` with a backward-compatible minor release, and a `BREAKING CHANGE` footer or `!` marker with a major release under Semantic Versioning. It also permits other types, such as `docs`, `test`, and `chore`; those types have no versioning meaning by themselves. ([Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/), [Semantic Versioning 2.0.0](https://semver.org/))
+
+That metadata is useful only when connected to an explicit automation policy. Google’s release-please, for example, parses Conventional Commit history to propose changelog entries, version bumps, tags, and GitHub Releases through a release pull request. A maintainer can review the proposed release before merging it. The tool’s documentation also makes the boundary clear: it does not publish to package managers or solve complex branch management. Conventional Commits supplies structured signals; the release system still needs configuration, tests, permissions, and a human release decision. ([release-please](https://github.com/googleapis/release-please))
+
+Adopt the convention when at least one of these is true: the repository ships a library or CLI with a public compatibility promise; several maintainers need a shared vocabulary; release notes are currently assembled by hand; or a CI service will derive changelogs and SemVer increments. In those cases, consistent messages reduce repetitive release bookkeeping and make the history easier to filter. They also let a reviewer ask a concrete question: does this commit really represent a fix, a feature, or a breaking change?
+
+It becomes ceremony when the repository is a private prototype, releases are infrequent and manually described, or every change is forced through a taxonomy that provides no downstream consumer. A solo maintainer who already writes a useful pull-request summary may gain little from a second mandatory description. Requiring scopes nobody uses, rejecting harmless merge commits, or debating whether a test change is `test` or `chore` spends attention without improving a release or a reader’s understanding.
+
+There is a realistic limitation: a commit message is an assertion, not proof. A developer can label an incompatible API change `fix`, or mark an internal refactor as `feat`; a parser cannot infer the public contract from the word alone. History shape can also affect output. Release-please recommends a linear history and notes that pull-request text can be important to the release notes, because exploratory commits may not make sense as user-facing changes after a squash merge. Automation should therefore validate format, but tests and review must validate meaning.
+
+For a small public repository, start with a reversible policy. Document `feat`, `fix`, and `BREAKING CHANGE`/`!`; allow `docs`, `test`, `chore`, and `refactor` without promising that each changes the version. Add a commit-message check in CI only after the team has examples and a repair path. Connect the convention to a changelog or release tool, run it in dry-run mode, and compare its proposed versions with human judgment for a few releases. If no automation or reader benefit emerges, keep the examples and drop the gate. The goal is machine-readable intent that saves maintenance time, not a badge of process maturity.
+
+## Sources
+
+- [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/), official specification.
+- [Semantic Versioning 2.0.0](https://semver.org/), official specification.
+- [release-please](https://github.com/googleapis/release-please), Google’s primary project documentation.
