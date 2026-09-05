@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Check for whitespace errors in changed lines
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            git diff --check origin/${{ github.base_ref }}...HEAD
+          else
+            git diff --check HEAD~1...HEAD || true
+          fi
+
+      - name: Syntax-check Node.js scripts
+        run: |
+          find . -name '*.mjs' -not -path './.git/*' -print0 \
+            | xargs -0 -n1 node --check
+
+      - name: Validate JSON files
+        run: |
+          find . -name '*.json' -not -path './.git/*' -print0 \
+            | xargs -0 -n1 -I{} sh -c 'echo "Checking {}"; node -e "JSON.parse(require(\"fs\").readFileSync(\"{}\", \"utf8\"))"'
