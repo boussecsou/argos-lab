@@ -4,6 +4,8 @@
 
 `prototypes/` contains reusable Argo packages. Each `argo-<destination>/` directory has a normative `SKILL.md`, a machine-readable `argo.json`, embedded capabilities under `skills/`, and optional supporting material under `references/`. `skills/argo-creator/` is the repository copy of the authoring skill. Controlled studies live in `experiments/<experiment-id>/`; keep prompts, conditions, raw runs, blinded artifacts, scripts, and results in their existing subdirectories. Root documentation includes `README.md`, `AGENTS.md`, and public-repository policy files.
 
+`argo/` at the repository root is reserved for the future `/argo` meta-argo described in Notion's "Argos Notes": an argo whose job is to create, review, and improve other argos (intake questions → design → skill selection/composition → package creation → review/audit skill → validation), giving a self-hosting property. It is currently empty — do not build it out until the core argo model and `SKILL.md` structure are stable; freezing it early would tie it to an unstable specification.
+
 ## Build, Test, and Development Commands
 
 There is no application build or package-manager setup. Use the checked-in Node.js scripts directly:
@@ -33,4 +35,4 @@ Use focused Conventional Commits, for example `feat(argo-write-article): add QA 
 
 Assume every tracked artifact is public. Never commit secrets, private URLs, personal data, unredacted logs, or material with unclear redistribution rights.
 
-For `/init`, use the canonical Notion path `Ali B. Workspace → Build Studio → Project Portfolio → Argos Project`. Fetch Argos Project (`3cfeba09-656f-8094-90c8-e2f63a93b2bb`) first and Argos Documentation (`3caeba09-656f-8002-91ac-faa0ce6a3524`) for the conceptual model. Query Argo Research Lab (`collection://6fe58d55-2238-4c5d-8b01-713931a38c86`) or Argo Conclusions (`collection://207e60a4-bdd1-45f9-bdc5-ca95db8377a7`) instead of searching the workspace broadly.
+For `/init`, use the canonical Notion path `Ali B. Workspace → Build Studio → Project Portfolio → Argos Project`. Fetch Argos Project (`3d2eba09-656f-80e7-99e3-e187e00537da`) first and Argos Documentation (`3d2eba09-656f-805f-9ef7-f639768be9be`) for the conceptual model, including its "Argos Notes" child page. Query Argo Research Lab (`collection://5753333c-c2fb-4b89-96f9-8771d7b5d703`) or Argo Conclusions (`collection://99667694-cab9-4997-8c14-52218d6ee610`) instead of searching the workspace broadly. The `3cfeba09…` / `3caeba09…` IDs and their collections are the superseded "Legacy — Argos Project" — consult only for historical context.
