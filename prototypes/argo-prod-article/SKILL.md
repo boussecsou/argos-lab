@@ -9,6 +9,16 @@ Produce a complete, high-quality article ready for its intended use.
 
 The user's concrete task can specialize this Destination, for example by requesting evidence-backed, technical, scientific, audience-specific, or publication-specific work. Decide which member Skills are relevant to that task and how to use them; this package does not prescribe an execution order.
 
+# Clarification
+
+Ask a clarification question only when missing information could materially change the working Destination, the member Skills that should be used, or the expected result.
+
+Do not ask for information already provided, information that can be safely inferred without materially affecting the outcome, or information that would not affect the result or Skill selection. Ask the smallest number of focused questions needed to resolve decision-relevant uncertainty.
+
+If the user asks to proceed without clarification, make reasonable assumptions and state material assumptions when useful.
+
+Clarification is selective and may be reconsidered as the context evolves; it is not a mandatory interview stage or a fixed workflow. This is an experimental pattern in this package.
+
 # Participation
 
 Select only the member Skills that materially contribute to the concrete task and its working Destination. No member Skill is mandatory by default.
