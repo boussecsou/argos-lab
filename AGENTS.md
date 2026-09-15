@@ -1,5 +1,12 @@
 # Repository Guidelines
 
+## Agent Research Rules
+
+When information is uncertain, surprising, incomplete, or likely to have
+changed since the model's knowledge cutoff, research it on the web before
+acting. Synthesize the relevant findings and apply them directly to the task;
+do not let the research distract from the requested outcome.
+
 ## Project Structure & Module Organization
 
 `prototypes/` contains reusable Argo packages. Each `argo-<destination>/` directory has a normative `SKILL.md`, a machine-readable `argo.json`, embedded capabilities under `skills/`, and optional supporting material under `references/`. `skills/argo-creator/` is the repository copy of the authoring skill. Controlled studies live in `experiments/<experiment-id>/`; keep prompts, conditions, raw runs, blinded artifacts, scripts, and results in their existing subdirectories. Root documentation includes `README.md`, `AGENTS.md`, and public-repository policy files.
